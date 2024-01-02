@@ -3,6 +3,7 @@ import { View, Text } from "react-native";
 import Styles from "./Style";
 import { StatusBar } from "expo-status-bar";
 import { BatButton, BatLogo, BatTextInput } from "../../components";
+import { usePass } from "../../hooks";
 
 export default function Home() {
   return (
